@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name: Date-Holidays-DK
+version: 0.01
+author:
+  - Lars Thegler <lars@thegler.dk>
+abstract: Determine Danish public holidays
+license: perl
+requires:
+  Date::Easter: 0
+  Date::Simple: 0
+  Test::More: 0
+  Test::Pod: 1
+provides:
+  Date::Holidays::DK:
+    file: DK.pm
+    version: 0.01
+generated_by: Module::Build version 0.24
