@@ -1,8 +1,7 @@
 --- #YAML:1.0
 name: Date-Holidays-DK
-version: 0.01
-author:
-  - Lars Thegler <lars@thegler.dk>
+version: 0.02
+author: ~
 abstract: Determine Danish public holidays
 license: perl
 requires:
@@ -13,5 +12,5 @@ requires:
 provides:
   Date::Holidays::DK:
     file: DK.pm
-    version: 0.01
-generated_by: Module::Build version 0.24
+    version: 0.02
+generated_by: Module::Build version 0.25
