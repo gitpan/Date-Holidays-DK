@@ -7,8 +7,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Date::Easter' => '0',
                            'Date::Simple' => '0',
-                           'Test::More' => '0',
-                           'Test::Pod' => '1'
+                           'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',
           'PL_FILES' => {}
